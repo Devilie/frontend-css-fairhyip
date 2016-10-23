@@ -1,0 +1,137 @@
+body {
+    background: url(../images/bg_body.jpg) repeat;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* wrapper*/
+    /* header */
+    
+    .mainmenu {
+        width: 53%;
+	    height: 20px;
+        position: absolute;
+        top: 120px;
+        left: 40%;
+        background: #fff;
+        border-radius: 5px;
+        margin-left: 3px;
+        padding: 10px 0px 10px 0px;    
+    }
+    .menu-item {
+        
+        display: inline;
+        padding: 5px 20px 10px 35px;
+        
+    }
+    .menu-item a {
+        text-decoration:  none;
+        color: #461500;
+    }
+    .active {
+	background: url(../images/bg_menu-item-active.png);
+    }
+
+    .lang-list {
+        float: left;
+        position: absolute;
+        left: 120px;
+        top: 40px;
+    }
+    .lang-item {
+        float: left;
+        color: #E8D1A4;
+        font: 12px verdana,sans-serif;
+        margin: 0 10px 0;
+        
+    }
+    .lang-item a {
+        color: #fff;
+        text-decoration: underline;
+
+    }
+    .logo {
+        float: left;
+        top: 60px;
+        left: 120px;
+        position: absolute;
+
+    }
+    .auth {
+        float: right;
+        padding: 40px 10px 0 0;
+
+    }
+    .auth-link a {
+        font: 11px verdana,sans-serif;
+        color: #fff;
+        padding: 10px;
+        
+    }
+    .auth-link_signin a {
+        color: #e8d1a4;
+    }
+    /*end of header*/
+    /* main content*/
+    .content {
+        padding-top: 200px;
+        width: 101%
+    }
+    .promo {
+        font: 14px italic 'Georgia', serif;
+        /*font-family: sans-serif*/;
+        color: #F9DA5A;
+        background: url(../images/bg_about.png) 5% no-repeat, url(../images/bg_promo.png) repeat;  
+        float: inherit;
+        position: relative;
+        border-radius: 6px;
+        padding: 0 0 60px 120px;  
+
+
+    }
+    .promo h1{
+        color: #EAD4AA;
+        padding: 20px 0 10px 0;
+        font-size:  20px !important;
+    }
+
+    .article h2 {
+        color: #fff68d;
+        float: left;
+        font: 16px verdana,sans-serif;
+        margin: 20px 0 20px 120px;
+        
+    }
+    .article img {
+       margin: 30px 0 0 -540px;
+	   float: left;
+        
+    }
+    .article p {
+        float: left;
+        margin: 0 0 0 120px;
+        color: #d7cfc8;
+        font: 10px verdana, sans-serif;
+    }
+    /*end of main*/
+/*ent of wrapper*/
+/*footer*/
+footer {
+    float: left;
+    border-top: 1px solid #C1A44D;
+    width: 100%;  
+    margin: 20px 0 0 10px;
+    padding-left:  10px;
+    padding-top: 30px;
+}
+.footer div {
+    color: #d7b849;
+     
+}
+.footer a {
+	float: right;
+    font: 11px verdana,sans-serif;
+    color: #fff;
+    padding: 0 15px 20px 0;
+    
+}
+/*end of footer*/
