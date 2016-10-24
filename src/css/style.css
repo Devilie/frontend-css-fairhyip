@@ -32,13 +32,12 @@ body {
     }
 
     .lang-list {
-        float: left;
         position: absolute;
         left: 120px;
         top: 40px;
     }
     .lang-item {
-        float: left;
+        display: inline;
         color: #E8D1A4;
         font: 12px verdana,sans-serif;
         margin: 0 10px 0;
@@ -50,14 +49,13 @@ body {
 
     }
     .logo {
-        float: left;
         top: 60px;
         left: 120px;
         position: absolute;
 
     }
     .auth {
-        float: right;
+        margin-left: 930px;
         padding: 40px 10px 0 0;
 
     }
@@ -74,14 +72,13 @@ body {
     /* main content*/
     .content {
         padding-top: 200px;
+        padding-bottom: 20px;
         width: 101%
     }
     .promo {
         font: 14px italic 'Georgia', serif;
-        /*font-family: sans-serif*/;
         color: #F9DA5A;
-        background: url(../images/bg_about.png) 5% no-repeat, url(../images/bg_promo.png) repeat;  
-        float: inherit;
+        background: url(../images/bg_about.png) 4% no-repeat, url(../images/bg_promo.png) repeat;  
         position: relative;
         border-radius: 6px;
         padding: 0 0 60px 120px;  
@@ -96,18 +93,19 @@ body {
 
     .article h2 {
         color: #fff68d;
-        float: left;
+        position: relative;
         font: 16px verdana,sans-serif;
-        margin: 20px 0 20px 120px;
+        margin: 30px 0 10px 120px;
         
     }
     .article img {
-       margin: 30px 0 0 -540px;
-	   float: left;
+       margin-top: -15px;
+       padding-left: 10px;
+	   position: absolute; 
         
     }
     .article p {
-        float: left;
+        position: relative;
         margin: 0 0 0 120px;
         color: #d7cfc8;
         font: 10px verdana, sans-serif;
@@ -116,22 +114,23 @@ body {
 /*ent of wrapper*/
 /*footer*/
 footer {
-    float: left;
     border-top: 1px solid #C1A44D;
     width: 100%;  
     margin: 20px 0 0 10px;
     padding-left:  10px;
     padding-top: 30px;
+    
+}
+.footermenu .menu-list {
+    margin-left: 580px;
+    
 }
 .footer div {
     color: #d7b849;
-     
 }
 .footer a {
-	float: right;
-    font: 11px verdana,sans-serif;
+	font: 11px verdana,sans-serif;
     color: #fff;
-    padding: 0 15px 20px 0;
-    
+    margin: -20px;   
 }
 /*end of footer*/
