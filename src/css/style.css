@@ -139,8 +139,17 @@
        color: #d7b849;
     }
     .footer a {
-        font: 11px verdana,sans-serif;
-        color: #fff;
-        margin: -20px;   
+       font: 11px verdana,sans-serif;
+       color: #fff;
+       margin-left: -50px;   
     }
+    nav.footermenu .menu-item:after{
+        content: " | ";
+        color: #fff;
+        padding-left: 5px;
+    } 
+    nav.footermenu .menu-item:last-child:after{
+        content: none;
+    }
+        
 /*end of footer*/
